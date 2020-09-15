@@ -65,16 +65,6 @@ header nav li{
 	justify-content: flex-end;
 }
 /*Head Contents*/
-.head-contents{
-	display: block;
-	margin-top: 60px;
-}
-.head-contents ul{
-	display: flex;
-	flex-direction: row;
-	font-size: 12px;
-	padding-left: 5px;
-}
 .head-img{
 	display: block;
 	top: 80px;
@@ -86,18 +76,15 @@ header nav li{
 	height: 250px;
 	padding: 5px;
 }
-.head-img p{
-	position: absolute;
-	top: 10px;
-	margin-left: 5%;
-	color: #ffffff;
-}
-#top{
+.head-img h1{
 	font-size: 1.2rem;
+	color: #ffffff;
+	margin-left: 5%; 
 }
-#bottom{
-	font-size: 1.8rem;
-	margin-top: 60px;
+.head-img h2{
+	font-size: 1.5rem;
+	color: #ffffff;
+	margin-left: 5%;
 }
 /*Center contens*/
 main{
@@ -140,7 +127,7 @@ main{
 }
 /*About-Img*/
 .about-img img{
-	width: 700px;
+	width: 800px;
 	margin: 0% auto 0% auto;
 }
 /*Bottom Share*/
@@ -203,6 +190,23 @@ main{
 	border-top: solid; 
 	border-width: thin;
 }
+.middle-list li {
+  position: relative;
+  list-style: none;
+}
+.middle-list li::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 1.7em;
+  left: -1.5em;
+  width: 3px;
+  height: 3px;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
 .list-set{
 	display: inline-flex;
 	flex-wrap: wrap;
@@ -224,6 +228,23 @@ footer h1{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	width: 1000px;
+}
+.footer-flex li {
+  position: relative;
+  list-style: none;
+}
+.footer-flex li::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0.5em;
+  left: -1.5em;
+  width: 3px;
+  height: 3px;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 /*End Manu*/
 .end-menu{
