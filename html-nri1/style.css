@@ -166,6 +166,9 @@ main{
 	justify-content: space-between;
 	list-style: none;
 }
+.line-link a{
+
+}
 /*Center Menu-*/
 .box-link{
 	background-color: skyblue;
@@ -227,20 +230,45 @@ main{
 	padding-top: 20px;
 }
 /*Footer*/
-footer h1{
-	font-size: 21px;
-}
 .footer-flex{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	width: 1000px;
+	width: 1100px;
 }
-.footer-flex li {
+.block-list{
+	display: block;
+	width: 25%;
+	height: 400px;
+}
+.footer-flex a{
+	text-decoration: none;
+	color: black;
+}
+.footer-flex h1{
+	font-size: 18px;
+	position: relative;
+	text-decoration: none;
+	text-indent: 0.4in;
+}
+.footer-flex h1:before{
+	display: block;
+  	content: '';
+  	position: absolute;
+  	top: 0.5em;
+  	left: 0.9em;
+  	width: 3px;
+  	height: 3px;
+  	border-right: 1px solid #666;
+ 	border-bottom: 1px solid #666;
+  	-webkit-transform: rotate(-45deg);
+  	transform: rotate(-45deg);
+}
+.footer-flex li{
   position: relative;
   list-style: none;
 }
-.footer-flex li::before {
+.footer-flex li::before{
   display: block;
   content: '';
   position: absolute;
