@@ -140,10 +140,12 @@ main{
 /*Bottom Share*/
 #follow-us{
 	justify-content: center;
-	border-color: #ffffcc; 
+	border-color: #ffffcc;
+	break-inside: 0.8px;
 	border-top: solid;
 	border-bottom: solid;
-	font-size: 25px; 
+	border-width: thin;
+	font-size: 25px;
 }
 /*About Add*/
 .block-text{
@@ -199,6 +201,7 @@ main{
 .middle-list div{
 	border-top: solid; 
 	border-width: thin;
+	border-color: #f0f0f0;
 }
 .middle-list li {
   position: relative;
