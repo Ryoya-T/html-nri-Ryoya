@@ -1,8 +1,7 @@
 @charset "utf-8";
 
-/*All styl*/
+/*All*/
 body{
-	margin: 0%;
 	padding: 0%;
 }
 a{
@@ -16,62 +15,60 @@ a:visited{
 	color: blue;	
 }
 /*Header*/
-header{
+.header-manu{
+	display: block;
 	position: fixed;
 	top: 0%;
-	display: block;
 	width: 100%;
 	height: 60px;
-	z-index: 1;
-	justify-content: space-around;
 	background-color: #ffffff;
-}
-header h1{
-	width: 60px;
-	height: 40px;
-	margin-top: 10px;
-	margin-left: 30px; 
-}
-.header-menu{
-	position: fixed;
-	top: 0%;
-	display: flex;
-	width: 100%;
 	z-index: 1;
-	justify-content: space-around;
 }
-.header-menu h1{
-	width: 50px;
-	padding: 0%; 
+.header-manu h1{
+	display: inline-block;
+	width: 90px;
+	height: 60px;
+	margin: 10px;
 }
-.top-icon{
-	display: flex;
-	justify-content: flex-start;
-	width: 55px;
-	height: 55px;
+.dis-c{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
 }
-.header-menu ul{
-	display: flex;
-	width: 100%;
-	padding:15px 10% 0% 0%;
-	margin-top: 5px;
+.dis-c li{
+	display: inline-block;
 	list-style: none;
-	justify-content: space-around;
-
-}
-header nav li{
-	font-size: 14px;
-}
-@media only screen and (max-width: 1200px){
-	.dis-c{
-		display: none;
-	}
 }
 .dis-e{
-	display: flex;
-	justify-content: flex-end;
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+}
+.dis-e li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 18px;
+	padding-right: 20px;
+}
+@media (max-width: 1200px){
+	.dis-c{
+	display:none;
+	}
+	.dis-e{
+	display: inline-block;
+	width: 80%;
+	text-align: right;
+	}
 }
 /*Head Contents*/
+.head-contents ul{
+	display: inline-block;
+}
+.head-contents li{
+	display: inline-block;
+	text-align: left;
+	list-style: none;
+}
 .head-img{
 	display: block;
 	top: 80px;
@@ -93,7 +90,34 @@ header nav li{
 	color: #ffffff;
 	margin-left: 5%;
 }
-/*Center contens*/
+/*Head Share , Center Share . Bottom Share*/
+.share{
+	text-align: right;
+	display: flex;
+	justify-content: flex-end;
+}
+.share li{
+	display: inline;
+	padding-left: 10px;
+}
+.share img{
+	width: 20px;
+	height: 20px;
+}
+#top-share{
+	width: 1000px;
+	margin: 100px auto 10px auto;
+}
+#follow-us{
+	justify-content: center;
+	border-color: #ffffcc;
+	break-inside: 0.8px;
+	border-top: solid;
+	border-bottom: solid;
+	border-width: thin;
+	font-size: 25px;
+}
+/*Center Contents*/
 main{
 	display: block;
 	width: 800px;
@@ -114,38 +138,10 @@ main{
 .title h1{
 	width: auto;
 }
-/*Share*/
-.share{
-	text-align: right;
-	display: flex;
-	justify-content: flex-end;
-}
-.share li{
-	display: inline;
-	padding-left: 10px;
-}
-.share img{
-	width: 20px;
-	height: 20px;
-}
-#top-share{
-	width: 1000px;
-	margin: 100px auto 10px auto;
-}
-/*About-Img*/
+/*About Img*/
 .about-img img{
 	width: 800px;
 	margin: 0% auto 0% auto;
-}
-/*Bottom Share*/
-#follow-us{
-	justify-content: center;
-	border-color: #ffffcc;
-	break-inside: 0.8px;
-	border-top: solid;
-	border-bottom: solid;
-	border-width: thin;
-	font-size: 25px;
 }
 /*About Add*/
 .block-text{
@@ -171,7 +167,7 @@ main{
 .line-link a{
 
 }
-/*Center Menu-*/
+/*Center Menu*/
 .box-link{
 	background-color: skyblue;
 	width: 100%;
@@ -232,7 +228,7 @@ main{
 	width: 225px;
 	padding-top: 20px;
 }
-/*Footer*/
+/*Footer , Bottom Menu*/
 .footer-flex{
 	display: flex;
 	flex-wrap: wrap;
@@ -288,7 +284,7 @@ main{
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/*End Manu*/
+/*End Menu*/
 .end-menu{
 	display: flex;
 	flex-wrap: wrap;
@@ -314,6 +310,7 @@ main{
   	-webkit-transform: rotate(-45deg);
   	transform: rotate(-45deg);
 }
+/*Government Marc*/
 .government-marc{
 	font-size: 10px;
 	width: 1000px;
