@@ -67,15 +67,16 @@ a:visited{
 /*Head Contents*/
 .head-contents ul{
 	display: inline-block;
+	margin-top: 70px;
 }
 .head-contents li{
 	display: inline-block;
 	text-align: left;
 	list-style: none;
+	font-size: 12px;
 }
 .head-img{
 	display: block;
-	top: 80px;
 	position: relative;
 	background-image: url(img/h1_whats_2.jpg);
 	background-size: cover; 
