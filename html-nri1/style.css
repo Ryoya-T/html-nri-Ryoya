@@ -67,7 +67,11 @@ a:visited{
 /*Head Contents*/
 .head-contents ul{
 	display: inline-block;
-	margin-top: 70px;
+	margin-top: 65px;
+	color: #CCCCCC;
+}
+.head-contents a{
+	color: #CCCCCC;
 }
 .head-contents li{
 	display: inline-block;
@@ -111,8 +115,8 @@ a:visited{
 	height: 20px;
 }
 #top-share{
-	width: 1000px;
-	margin: 100px auto 10px auto;
+	width: 800px;
+	margin: 30px auto 10px auto;
 }
 #center-share{
 	margin-top: 40px;
