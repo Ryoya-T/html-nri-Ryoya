@@ -191,6 +191,23 @@ main{
   	-webkit-transform: rotate(135deg);
   	transform: rotate(135deg);
 }
+#link-left{
+  position: relative;
+  padding-right: 15px;
+}
+#link-left::after{
+	display: block;
+  	content: '';
+  	position: absolute;
+  	top: 0.5rem;
+  	right: 2px;
+  	width: 5px;
+  	height: 5px;
+  	border-right: 1px solid #666;
+ 	border-bottom: 1px solid #666;
+  	-webkit-transform: rotate(-45deg);
+  	transform: rotate(-45deg);
+}
 /*Center Menu*/
 .box-link{
 	background-color: skyblue;
