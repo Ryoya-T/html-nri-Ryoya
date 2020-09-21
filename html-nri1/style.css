@@ -282,6 +282,7 @@ article p{
 	text-align: center;
  }
 .box-link li::before{
+	display: inline-block;
   	content: '';
   	position: absolute;
   	top: 50%;
@@ -291,6 +292,7 @@ article p{
   	border-right: 1px solid #666;
  	border-bottom: 1px solid #666;
   	transform: rotate(-45deg) translate(50%);
+  	margin: 5px 5px 3px 3px;
 }
 .box-link a{
 	display: flex;
