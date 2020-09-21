@@ -35,7 +35,7 @@ a:visited{
 }
 .dis-c{
 	display: inline-block;
-	width: 75%;
+	width: 70%;
 	text-align: right;
 
 }
@@ -48,7 +48,7 @@ a:visited{
 .dis-e{
 	display: inline-block;
 	width: 10%;
-	text-align: right;
+	text-align: left;
 	margin: 10px;
 }
 .dis-e li{
@@ -66,6 +66,16 @@ a:visited{
 	display: inline-block;
 	width: 80%;
 	text-align: right;
+	}
+}
+@media (max-width: 780px){
+	.dis-c{
+		display: none;
+	}
+	.dis-e{
+		display: inline-block;
+		text-align: right;
+		width: 60%;
 	}
 }
 /*Head Contents*/
@@ -112,6 +122,9 @@ a:visited{
 	display: flex;
 	justify-content: flex-end;
 	font-size: 13px;
+}
+.share ul{
+	padding-left: 10px;
 }
 .share li{
 	display: inline;
