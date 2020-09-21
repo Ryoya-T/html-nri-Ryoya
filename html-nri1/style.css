@@ -60,12 +60,12 @@ a:visited{
 }
 @media (max-width: 1200px){
 	.dis-c{
-	display:none;
+		display:none;
 	}
 	.dis-e{
-	display: inline-block;
-	width: 80%;
-	text-align: right;
+		display: inline-block;
+		width: 80%;
+		text-align: right;
 	}
 }
 @media (max-width: 820px){
@@ -213,7 +213,6 @@ article p{
   	height: 5px;
   	border-right: 1px solid #fff;
  	border-bottom: 1px solid #fff;
-  	-webkit-transform: rotate(-45deg);
   	transform: rotate(-45deg);
 }
 .line-link{
@@ -239,7 +238,6 @@ article p{
   	height: 5px;
   	border-right: 1px solid #666;
  	border-bottom: 1px solid #666;
-  	-webkit-transform: rotate(135deg);
   	transform: rotate(135deg);
 }
 #link-left{
@@ -256,7 +254,6 @@ article p{
   	height: 5px;
   	border-right: 1px solid #666;
  	border-bottom: 1px solid #666;
-  	-webkit-transform: rotate(-45deg);
   	transform: rotate(-45deg);
 }
 /*Center Menu*/
@@ -293,7 +290,6 @@ article p{
   	height: 5px;
   	border-right: 1px solid #666;
  	border-bottom: 1px solid #666;
-  	-webkit-transform: rotate(-45deg);
   	transform: rotate(-45deg) translate(50%);
 }
 .box-link a{
@@ -318,10 +314,11 @@ article p{
 	border-top-width: 100%;
 }
 .middle-list div{
-	border-top: solid; 
+	border-top: dotted; 
 	border-width: thin;
-	border-color: #f0f0f0;
+	border-color:#A9A9A9;
 	font-size: 14px;
+	padding-bottom: 20px;
 }
 .middle-list h1{
 	font-size: 20px;
@@ -333,26 +330,20 @@ article p{
 	margin-top: 40px;
 	margin-bottom: 0%;
 }
-.middle-list ul {
-	padding-left: 18px;
-}
 .middle-list li {
   position: relative;
   list-style: none;
   padding-left: 0%;
 }
 .middle-list li::before {
-  display: block;
+  display: inline-block;
   content: ' ';
-  position: absolute;
-  top: 2em;
-  left: -1.5em;
   width: 3px;
   height: 3px;
   border-right: 1px solid #666;
   border-bottom: 1px solid #666;
-  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  margin: 5px 5px 3px 3px;
 }
 #move-point{
 	display: block;
@@ -361,29 +352,26 @@ article p{
 	font-size: 14px;
 }
 #move-point li::before{
-	display: block;
+	display: inline-block;
   	content: ' ';
-  	position: absolute;
-  	top: 2em;
-  	left: -1.5em;
   	width: 3px;
   	height: 3px;
   	border-right: 1px solid #666;
   	border-bottom: 1px solid #666;
-  	-webkit-transform: rotate(135deg);
   	transform: rotate(135deg);
 }
 .list-set{
 	display: inline-flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-}
-.list-set ul{
-	display: inline-block;
+	padding-left: 0px;
 }
 .list-set li{
-	width: 225px;
-	padding-top: 20px;
+	width: 230px;
+	padding-top: 15px;
+}
+.list-set a{
+	padding-left: 10px;
 }
 /*Footer , Bottom Menu*/
 .footer-flex{
@@ -400,6 +388,7 @@ article p{
 	display: block;
 	width: 25%;
 	height: 330px;
+	padding: 40px 0%;
 }
 .footer-flex a{
 	text-decoration: none;
@@ -409,36 +398,39 @@ article p{
 	font-size: 18px;
 	position: relative;
 	text-decoration: none;
-	text-indent: 0.4in;
+	text-indent: 0.3in;
 }
 .footer-flex h1:before{
 	display: block;
   	content: '';
   	position: absolute;
   	top: 0.5em;
-  	left: 0.9em;
+  	left: 0.8em;
   	width: 3px;
   	height: 3px;
   	border-right: 1px solid #666;
  	border-bottom: 1px solid #666;
-  	-webkit-transform: rotate(-45deg);
   	transform: rotate(-45deg);
 }
+.footer-flex ul{
+	padding-left: 30px;
+}
 .footer-flex li{
-  position: relative;
-  list-style: none;
+	font-size: 16px;
+  	position: relative;
+ 	list-style: none;
+  	padding-bottom: 0.8em;
 }
 .footer-flex li::before{
   display: block;
   content: '';
   position: absolute;
-  top: 0.5em;
-  left: -1.5em;
+  top: 0.7em;
+  left: -1em;
   width: 3px;
   height: 3px;
   border-right: 1px solid #666;
   border-bottom: 1px solid #666;
-  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 /*End Menu*/
@@ -464,7 +456,6 @@ article p{
   	height: 3px;
   	border-right: 1px solid #666;
  	border-bottom: 1px solid #666;
-  	-webkit-transform: rotate(-45deg);
   	transform: rotate(-45deg);
 }
 /*Government Marc*/
