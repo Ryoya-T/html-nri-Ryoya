@@ -108,14 +108,23 @@ a:visited{
 	padding: 5px;
 }
 .head-img h1{
-	font-size: 1.2rem;
-	color: #ffffff;
-	margin-left: 5%; 
-}
-.head-img h2{
 	font-size: 1.5rem;
+	font-weight: 400;
 	color: #ffffff;
 	margin-left: 5%;
+	line-height: 1.4;
+}
+.head-img h2{
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #ffffff;
+	margin-left: 5%;
+	line-height: 1.4;
+}
+@media (max-width: 820px){
+	.head-img h1{
+		display: none;
+	}
 }
 /*Head Share , Center Share . Bottom Share*/
 .share{
