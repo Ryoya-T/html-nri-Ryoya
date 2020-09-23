@@ -97,6 +97,16 @@ a:visited{
 .head-contents a:hover{
 	text-decoration: none;
 }
+.b-y:before{
+	display: inline-block;
+  	content: '';
+  	width: 3px;
+  	height: 3px;
+  	border-right: 1px solid #CCCCCC;
+ 	border-bottom: 1px solid #CCCCCC;
+  	transform: rotate(-45deg);
+  	margin: 6px 6px 2px 2px;
+}
 .head-img{
 	display: block;
 	position: relative;
@@ -453,21 +463,21 @@ article p{
 	font-size: 12px;
 	width: 1000px;
 	margin: 0% auto 0% auto;
+	padding: 0%;
 }
 .end-menu a{
 	color: #c0c0c0;
 }
-.end-menu a:before{
-	display: block;
+.end-menu li{
+	display: inline-block;
+}
+.b-d:before{
+	display: inline-block;
   	content: '';
-  	position: absolute;
-  	top: 0.5em;
-  	left: 0.9em;
-  	width: 1px;
-  	height: 3px;
-  	border-right: 1px solid #666;
- 	border-bottom: 1px solid #666;
-  	transform: rotate(-45deg);
+  	width: 3px;
+  	height: 12px;
+  	border-right: 1px solid #c0c0c0;
+  	margin: 0px 12px;
 }
 /*Government Marc*/
 .government-marc{
