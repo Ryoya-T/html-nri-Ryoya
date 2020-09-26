@@ -334,7 +334,7 @@ article p{
 	background-color: #ffffff;
 	position: relative;
 	justify-content: center;
-	text-align: center;
+	align-items: center;
 	border: solid;
 	border-width: thin;
 	border-color: #A9A9A9;
