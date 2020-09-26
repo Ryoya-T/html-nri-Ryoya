@@ -444,6 +444,12 @@ article p{
 		width: 100%;
 	}
 }
+.bottom-menu{
+	border-bottom: solid;
+	border-width: thin;
+	border-color: #f0f0f0;
+	margin-bottom: 50px;
+}
 /*Footer , Bottom Menu*/
 .footer-flex{
 	display: flex;
@@ -451,10 +457,6 @@ article p{
 	justify-content: space-around;
 	max-width: 1000px;
 	width: auto;
-	border-bottom: solid;
-	border-width: thin;
-	border-color: #f0f0f0;
-	margin-bottom: 50px;
 }
 .footer-flex a{
 	text-decoration: none;
@@ -471,7 +473,7 @@ article p{
   	content: '';
   	position: absolute;
   	top: 0.5em;
-  	left: 0.8em;
+  	left: 1em;
   	width: 3px;
   	height: 3px;
   	border-right: 1px solid #666;
