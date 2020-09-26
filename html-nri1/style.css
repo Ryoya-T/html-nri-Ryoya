@@ -312,8 +312,8 @@ article p{
 /*Center Menu*/
 .box-link{
 	background-color: #deecf8;
-	width: 95%;
-	padding:10px 2.5% 10px 2.5%;
+	width: 780px;
+	padding:10px 20px 10px 20px;
 }
 .box-link h2{
 	font-size: 18px;
