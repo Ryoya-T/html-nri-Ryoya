@@ -102,8 +102,9 @@ a:visited{
 /*Head Contents*/
 .head-contents ul{
 	display: inline-block;
-	margin-top: 65px;
-	padding-left: 2.5em;
+	margin: 65px auto 15px auto;
+	max-width: 1250px;
+	width: 95%;
 }
 .head-contents a{
 	color: #CCCCCC;
