@@ -517,6 +517,12 @@ article p{
 	height: auto;
 	padding: 40px 0%;
 }
+#font-weight-1{
+	font-weight: 700;
+}
+#font-weight-2{
+	font-weight: 700;
+}
 /*End Menu*/
 .end-menu{
 	display: flex;
