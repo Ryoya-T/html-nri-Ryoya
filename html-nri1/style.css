@@ -474,15 +474,15 @@ article p{
 .b-d:before{
 	display: inline-block;
   	content: '';
-  	width: 3px;
+  	width: auto;
   	height: 12px;
   	border-right: 1px solid #c0c0c0;
-  	margin: 0px 12px;
+  	margin: 0px 17px 0px 0px;
 }
 /*Government Marc*/
 .government-marc{
 	font-size: 10px;
 	width: 1000px;
-	padding-left: 70px;
 	margin: 20px auto 0% auto;
+	text-indent: 2px;
 }
