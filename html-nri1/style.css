@@ -456,7 +456,7 @@ article p{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	max-width: 1000px;
+	max-width: 1200px;
 	width: auto;
 }
 .footer-flex a{
@@ -502,7 +502,7 @@ article p{
  	border-bottom: 1px solid #666;
  	transform: rotate(-45deg);
 }
-@media(min-width: 1000px){
+@media(min-width: 1200px){
 	.footer-flex{
 		margin: 0px auto;
 	}
