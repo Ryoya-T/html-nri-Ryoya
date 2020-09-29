@@ -525,12 +525,14 @@ article p{
 }
 #font-weight-1 li{
 	padding-bottom: 20px;
+	font-size: 16px;
 }
 #font-weight-2{
 	font-weight: 700;
 }
 #font-weight-2 li{
 	padding-bottom: 15px;
+	font-size: 16px;
 }
 /*End Menu*/
 .end-menu{
