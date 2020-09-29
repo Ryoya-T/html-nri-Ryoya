@@ -450,6 +450,9 @@ article p{
 	border-color: #f0f0f0;
 	margin-bottom: 50px;
 }
+.bottom-menu a:hover{
+	text-decoration: underline;
+}
 /*Footer , Bottom Menu*/
 .footer-flex{
 	display: flex;
