@@ -502,6 +502,16 @@ article p{
  	border-bottom: 1px solid #666;
  	transform: rotate(-45deg);
 }
+.block-list p::before{
+ 	display: inline-block;
+ 	content: '';
+ 	width: 3px;
+ 	height: 3px;
+ 	border-right: 1px solid #666;
+ 	border-bottom: 1px solid #666;
+ 	transform: rotate(-45deg);
+ 	margin: 5px;
+}
 @media(min-width: 1200px){
 	.footer-flex{
 		margin: 0px auto;
@@ -521,16 +531,26 @@ article p{
 #font-weight-1{
 	font-weight: 700;
 }
-#font-weight-1 li{
-	padding-bottom: 20px;
+#font-weight-1 p{
+	display: inline-block;
+	width: 100%;
 	font-size: 16px;
+	margin: 0.67em;
+}
+#font-weight-1 a{
+	padding-left: 4px;
 }
 #font-weight-2{
 	font-weight: 700;
 }
-#font-weight-2 li{
-	padding-bottom: 15px;
+#font-weight-2 p{
+	display: inline-block;
+	width: 100%;
 	font-size: 16px;
+	margin: 0.67em;
+}
+#font-weight-2 a{
+	padding-left: 4px;
 }
 /*End Menu*/
 .end-menu{
