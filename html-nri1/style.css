@@ -33,7 +33,7 @@ a:visited{
 	z-index: 1;
 	align-items: center;
 }
-.header-manu h1{
+#head-manu-top{
 	display: inline-block;
 	width: 58px;
 	height: 40px;
@@ -141,7 +141,7 @@ a:visited{
 	max-width: 1000px;
 	margin: auto;
 }
-.head-img h1{
+.head-img h2{
 	font-size: 1.3rem;
 	font-weight: 400;
 	color: #ffffff;
@@ -149,16 +149,16 @@ a:visited{
 	margin: 0px;
 	padding-top: 40px;
 }
-.head-img h2{
+.head-img h1{
 	font-size: 1.8rem;
 	font-weight: 700;
 	color: #ffffff;
 }
 @media (max-width: 776px){
-	.head-img h1{
+	.head-img h2{
 		display: none;
 	}
-	.head-img h2{
+	.head-img h1{
 		font-size: 1.3rem;
 		font-weight: 500;
 	}
@@ -315,7 +315,7 @@ article p{
 	width: 760px;
 	padding:10px 20px 10px 20px;
 }
-.box-link h2{
+.box-link p{
 	font-size: 18px;
 }
 .box-link ul{
@@ -376,6 +376,7 @@ article p{
 	width: 1000px;
 	margin: 0% auto 0% auto;
 	border-top: solid;
+	border-width: 2px;
 	border-top-width: 100%;
 }
 .middle-list div{
@@ -385,12 +386,14 @@ article p{
 	font-size: 14px;
 	padding: 20px 0px 20px 0px;
 }
-.middle-list h1{
+#middle-list-top{
 	font-size: 20px;
+	font-weight: 600;
 	margin-bottom: 30px;
 }
-.middle-list h2{
+.middle-list p{
 	font-size: 16px;
+	font-weight: 600;
 	margin-bottom: 0%;
 }
 .middle-list li {
@@ -463,18 +466,18 @@ article p{
 	text-decoration: none;
 	color: black;
 }
-.footer-flex h1{
+.footer-flex p{
 	font-size: 16px;
 	position: relative;
 	text-decoration: none;
 	text-indent: 0.3in;
 }
-.footer-flex h1:before{
+.footer-flex p:before{
 	display: block;
   	content: '';
   	position: absolute;
-  	top: 0.5em;
-  	left: 1em;
+  	top: 0.4em;
+  	left: 0.6em;
   	width: 3px;
   	height: 3px;
   	border-right: 1px solid #666;
@@ -527,6 +530,9 @@ article p{
 	width: 25%;
 	height: auto;
 	padding: 40px 0%;
+}
+.block-list p{
+	font-weight: 600;
 }
 #font-weight-1{
 	font-weight: 700;
